@@ -2,7 +2,7 @@
 
 module.exports = SuperClass => class extends SuperClass {
   validate(req, res, next) {
-    if (req.form.values.email.toLowerCase() !== req.form.values.emailVerify.toLowerCase()) {
+    if (req.form.values.email.toLowerCase() !== req.form.values.emailVerify) {
       return next({
         emailVerify: new this.ValidationError(
           'emailVerify',
