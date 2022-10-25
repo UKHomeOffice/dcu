@@ -1,0 +1,13 @@
+{
+  "appName": "DCU",
+  "theme": "govUK",
+  "behaviours": [
+  ],
+  "routes": [
+    "./apps/dcu"
+  ],
+  "session": {
+    "name": "dcu.hof.sid"
+  },
+  "getAccessibility": true
+}
