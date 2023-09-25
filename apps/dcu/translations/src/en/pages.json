@@ -1,6 +1,9 @@
 {
   "landing-page": {
-    "header": "Direct Communications Unit"
+    "header": "Home Office"
+  },
+  "api-search": {
+    "header": "What are you contacting the Home Office about?"
   },
   "name": {
     "header": "What is your full name?"
@@ -31,7 +34,7 @@
     }
   },
   "confirmation": {
-    "alert": "Application complete",
+    "alert": "Query complete",
     "content": "You should receive an email confirmation shortly"
   }
 }

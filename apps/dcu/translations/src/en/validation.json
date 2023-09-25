@@ -1,5 +1,8 @@
 {
-  "name":{
+  "api-search": {
+    "required": "Enter what you are contacting the Home Office about"
+  },
+  "name": {
     "default": "Enter your full name"
   },
   "building": {
@@ -21,7 +24,7 @@
     "default": "Enter your email address in the correct format",
     "notSame": "Your email addresses do not match"
   },
-  "emailSubject" : {
+  "emailSubject": {
     "required": "Select an option below"
   },
   "description": {
